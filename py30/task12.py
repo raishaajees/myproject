@@ -4,12 +4,13 @@
 
 total=0
 while True:
-    a=(input("enter a num: "))
+    a=input("enter a num: ")
     if a.isdigit():
         a=int(a)
         total=total+a
         print(total)
-    if a=="stop":
-        break;
-
+    elif a=="stop":
+        break
+    else:
+        print("enter only numbers")
 
