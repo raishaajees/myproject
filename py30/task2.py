@@ -7,11 +7,18 @@ while True:
     if a.isdigit():
         a=int(a)
         break
+    else:
+        print("enter only digit")
+    
+
 
 while True:
     b=input("enter second number")
     if b.isdigit():
         b=int(b)
         break
+    else:
+        print("enter only digit")
+    
 
 print(a+b,a-b,a*b,a/b)
