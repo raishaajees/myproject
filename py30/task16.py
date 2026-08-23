@@ -4,6 +4,16 @@
 #     back together as "Lastname, Firstname" using an f-string.
 
 name=input("enter ur full name with space: ")
+a=name.split()
+firstname=a[0]
+print(firstname)
+lname=a[1]
+print(lname)
+print(f"{firstname},{lname}")
+
+
+
+
 
 
 
