@@ -9,7 +9,8 @@ firstname=a[0]
 print(firstname)
 lname=a[1]
 print(lname)
-print(f"{firstname + lname}") 
+# print(f"{firstname + lname}") 
+print(f"{firstname}{lname}") 
 
 
 
